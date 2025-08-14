@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9376C296-E3AF-45BF-ADAC-0F11A0580129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{666B1093-EEBE-4C24-81C8-245CC4948B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{159A8428-51E9-440C-A948-E84424089A63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D911A3D6-5B2D-4F4F-92DC-1F1F6B450942}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{AD6DC333-FFD7-4A86-B9A7-C24F660DD778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "function-api-FileToBlobFunction", "src\API\function-api-FileToBlobFunction\function-api-FileToBlobFunction.csproj", "{9E095355-C523-4297-89B8-9B528F79DCC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E095355-C523-4297-89B8-9B528F79DCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E095355-C523-4297-89B8-9B528F79DCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E095355-C523-4297-89B8-9B528F79DCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E095355-C523-4297-89B8-9B528F79DCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{159A8428-51E9-440C-A948-E84424089A63} = {9376C296-E3AF-45BF-ADAC-0F11A0580129}
+		{D911A3D6-5B2D-4F4F-92DC-1F1F6B450942} = {9376C296-E3AF-45BF-ADAC-0F11A0580129}
+		{AD6DC333-FFD7-4A86-B9A7-C24F660DD778} = {9376C296-E3AF-45BF-ADAC-0F11A0580129}
+		{9E095355-C523-4297-89B8-9B528F79DCC2} = {159A8428-51E9-440C-A948-E84424089A63}
+	EndGlobalSection
+EndGlobal
